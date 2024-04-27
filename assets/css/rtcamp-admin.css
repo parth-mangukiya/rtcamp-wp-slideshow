@@ -1,0 +1,39 @@
+:root {
+    --rtcamp-white: #FFF;
+    --rtcamp-border-color: #dcdddd;
+}
+
+.rtcamp-slidesshow-items {
+    padding: 20px 0
+}
+
+#hidden-predefined-item {
+    display: none;
+}
+
+.rtcamp-slidesshow-items .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid var(--rtcamp-border-color);
+    border-radius: 4px;
+    background-color: var(--rtcamp-white);
+    margin-bottom: 10px;
+}
+
+.rtcamp-slidesshow-items .item .icon {
+    cursor: pointer;
+}
+
+.rtcamp-slidesshow-items img {
+    display: block;
+}
+
+.rtcamp-slidesshow-items .content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px;
+}
